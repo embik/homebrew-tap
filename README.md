@@ -1,4 +1,6 @@
-# Embik Tap
+# homebrew-tap
+
+This [Homebrew tap](https://docs.brew.sh/Taps) includes formulae for [embik](https://github.com/embik)'s applications.
 
 ## How do I install these formulae?
 
