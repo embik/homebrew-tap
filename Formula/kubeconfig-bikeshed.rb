@@ -6,6 +6,9 @@ class KubeconfigBikeshed < Formula
   license "Apache-2.0"
 
   depends_on "rust" => :build
+
+  depends_on "openssl@3"
+
   depends_on "fzf" => :optional
 
   def install
