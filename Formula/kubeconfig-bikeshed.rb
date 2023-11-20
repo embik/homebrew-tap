@@ -5,6 +5,11 @@ class KubeconfigBikeshed < Formula
   sha256 "b22729bd8fde18996ef01d7586654bfb08d139891f802c3d4f12712af6d8f589"
   license "Apache-2.0"
 
+  bottle do
+    root_url "https://ghcr.io/v2/embik/tap"
+    sha256 cellar: :any, ventura: "8c6c20d46a8bf3ff1f727214d5dfa4f938beb67444df71ffe37d2057891007e7"
+  end
+
   depends_on "rust" => :build
 
   depends_on "openssl@3"
