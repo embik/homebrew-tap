@@ -9,8 +9,7 @@ class KubeconfigBikeshed < Formula
   depends_on "fzf" => :optional
 
   def install
-    system "cargo", "install", "--path", "."
-    bin.install "target/release/kbs"
+    system "cargo", "install", *std_cargo_args
   end
 
   test do
