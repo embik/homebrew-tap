@@ -5,6 +5,8 @@ class KubeconfigBikeshed < Formula
   sha256 "0e260faff0356407e1cd4b8898e8ba16e6f93714beeba79b3a4d643806027016"
   license "Apache-2.0"
 
+  head "https://github.com/embik/kubeconfig-bikeshed.git", branch: "main"
+
   bottle do
     root_url "https://ghcr.io/v2/embik/tap"
     sha256 cellar: :any, ventura: "5a307c7ad708aa63085e62e5fd8af92f3be56f13fdd0c7e176948aeac1e85e3a"
