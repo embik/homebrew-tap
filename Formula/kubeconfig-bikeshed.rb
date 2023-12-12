@@ -9,7 +9,7 @@ class KubeconfigBikeshed < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/embik/tap"
-    sha256 cellar: :any, ventura: "5a307c7ad708aa63085e62e5fd8af92f3be56f13fdd0c7e176948aeac1e85e3a"
+    sha256 cellar: :any_skip_relocation, ventura: "996f5d671cb89564c7b8dae6e540fd7934552790b8c5cbc960505a82bee438ee"
   end
 
   depends_on "rust" => :build
