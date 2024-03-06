@@ -1,8 +1,8 @@
 class KubeconfigBikeshed < Formula
   desc "Opinionated tool to manage your kubeconfigs"
   homepage "https://github.com/embik/kubeconfig-bikeshed"
-  url "https://github.com/embik/kubeconfig-bikeshed/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "ea8b0fc73d673c6be212db39816e53c8557df95bbeae0364244f1a969212c810"
+  url "https://github.com/embik/kubeconfig-bikeshed/archive/refs/tags/v0.3.1.tar.gz"
+  sha256 "12013f65489af4fdd7c208c291c72e09810c6186ef22ab5e30e84e5dae44bf3a"
   license "Apache-2.0"
 
   head "https://github.com/embik/kubeconfig-bikeshed.git", branch: "main"
