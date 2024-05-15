@@ -9,7 +9,7 @@ class KubeconfigBikeshed < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/embik/tap"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "bfd53486469f4feac6997c1c4de80926ec8ce95d7240ee8232082247edbc6167"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "147e13b783b4afadc63923449e9c65d3379e35b7e9f638105b7637344c6d92fd"
   end
 
   depends_on "rust" => :build
