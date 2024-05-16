@@ -8,6 +8,11 @@ class KubectlEphemeral < Formula
   version "0.1.0"
   license "Apache-2.0"
 
+  bottle do
+    root_url "https://ghcr.io/v2/embik/tap"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "fa45edf4d9691dbeebb5ab42bd2007e00b2d6f5d18673ebe9e3ba0b64fb7879c"
+  end
+
   depends_on "kubectl"
 
   on_macos do
