@@ -7,6 +7,11 @@ class Kubeone < Formula
 
   head "https://github.com/kubermatic/kubeone.git", branch: "main"
 
+  bottle do
+    root_url "https://ghcr.io/v2/embik/tap"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "73c8c31a1540cf7c87ba7ced03323ff58e79f1dd137b348e5f7e919564995b52"
+  end
+
   depends_on "go" => :build
   depends_on "opentofu" => :optional
   depends_on "terraform" => :optional
