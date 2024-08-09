@@ -1,8 +1,8 @@
 class Kubeone < Formula
   desc "Automates Kubernetes cluster operations on any cloud or edge infrastructure"
   homepage "https://docs.kubermatic.com/kubeone/v1.8"
-  url "https://github.com/kubermatic/kubeone/archive/refs/tags/v1.8.1.tar.gz"
-  sha256 "d73ce090f47ca9b14fd4e6bec3b18e1c3500c9260d083014c18d1a0ba6adabf2"
+  url "https://github.com/kubermatic/kubeone/archive/refs/tags/v1.8.2.tar.gz"
+  sha256 "4e5a342720d67fb6103eea932475c83c0af5a8fda1ad7736017b4104f8d6098e"
   license "Apache-2.0"
 
   head "https://github.com/kubermatic/kubeone.git", branch: "main"
@@ -20,7 +20,7 @@ class Kubeone < Formula
     ENV["CGO_ENABLED"] = "0"
     ldflags = %W[
       -s -w
-      -X k8c.io/kubeone/pkg/cmd.defaultKubeVersion=v1.30.2
+      -X k8c.io/kubeone/pkg/cmd.defaultKubeVersion=v1.30.3
       -X k8c.io/kubeone/pkg/cmd.version=v#{version}
       -X k8c.io/kubeone/pkg/cmd.date=#{time.iso8601}
     ]
