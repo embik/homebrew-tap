@@ -9,7 +9,7 @@ class Kubeone < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/embik/tap"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "8f9e739ab07f83d5090075d70625b9d691fb3dc31a5ffb2904fd0251c6b62fc4"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "872b131ba672af7d990f7f09ddfda8a4ea5c2b5d0b115c777988d9ddbd8957d4"
   end
 
   depends_on "go" => :build
